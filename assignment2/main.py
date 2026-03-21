@@ -23,9 +23,9 @@ TASKS = [
 ]
 
 
-def main():
+def run_tasks():
+    """自動跑作業要求的 3 個 Task。"""
     agent = ReActAgent()
-
     for task in TASKS:
         print(f"\n{'#'*60}")
         print(f"# Task {task['id']}: {task['name']}")
@@ -33,5 +33,21 @@ def main():
         agent.execute(task["question"])
 
 
+def interactive():
+    """互動模式：自己輸入問題。"""
+    agent = ReActAgent()
+    print("ReAct Agent 互動模式（輸入 'exit' 離開）")
+    while True:
+        query = input("\n你的問題：").strip()
+        if query.lower() in ("exit", "quit", "q"):
+            break
+        if query:
+            agent.execute(query)
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "-i":
+        interactive()
+    else:
+        run_tasks()
