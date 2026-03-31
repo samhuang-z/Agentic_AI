@@ -1,0 +1,23 @@
+{
+  "total_prompt_tokens": 8768,
+  "total_completion_tokens": 260,
+  "estimated_cost_usd": 0.0302,
+  "iterations": 3,
+  "timings": [
+    {
+      "iter": 1,
+      "api_sec": 3.7896809577941895,
+      "total_sec": 17.641616821289062
+    },
+    {
+      "iter": 2,
+      "api_sec": 4.49888801574707,
+      "total_sec": 4.807324171066284
+    },
+    {
+      "iter": 3,
+      "api_sec": 3.5023458003997803,
+      "total_sec": 3.503005027770996
+    }
+  ]
+}

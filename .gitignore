@@ -5,3 +5,11 @@ __pycache__/
 *.mov
 .venv/
 report.pdf
+
+# lab4
+lab4/PagePilot/
+lab4/browser-use-assignment/report.html
+lab4/browser-use-assignment/report_final.html
+lab4/browser-use-assignment/report_styled.html
+lab4/browser-use-assignment/convert_pdf.py
+lab4/browser-use-assignment/downloads/
