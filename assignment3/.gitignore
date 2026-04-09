@@ -1,0 +1,13 @@
+__pycache__/
+venv/
+.DS_Store
+.idea/
+*.pyc
+.ipynb_checkpoints
+.vscode/
+logs/
+cache/
+*.log
+*.csv
+chroma_db/
+.env

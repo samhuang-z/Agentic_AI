@@ -6,6 +6,14 @@ __pycache__/
 .venv/
 report.pdf
 
+# assignment3 generated/temporary files
+assignment3/chroma_db/
+assignment3/evaluation_log_*.txt
+assignment3/experiment_results.json
+assignment3/submit_pkg/
+assignment3/assignment3_submission.zip
+assignment3/Assignment 3.pdf
+
 # lab4
 lab4/PagePilot/
 lab4/browser-use-assignment/report.html
