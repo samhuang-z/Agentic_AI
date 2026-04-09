@@ -21,3 +21,11 @@ lab4/browser-use-assignment/report_final.html
 lab4/browser-use-assignment/report_styled.html
 lab4/browser-use-assignment/convert_pdf.py
 lab4/browser-use-assignment/downloads/
+
+# lab5 — keep PDF + intermediate markdown out (contain student ID)
+lab5/stock_crew/lab5_*.pdf
+lab5/stock_crew/lab5_report_source.md
+
+# generic — any student-id-tagged report
+hw*_*_report.pdf
+lab*_*_report.pdf
